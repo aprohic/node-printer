@@ -37,7 +37,7 @@ namespace{
         virtual void free() {
             if(this->_value != NULL)
             {
-                ::free(_value);
+                ::free(this->_value);
                 this->_value = NULL;
             }
         }
